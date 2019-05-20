@@ -2,6 +2,8 @@
 require_once('app/table.php');
 ?>
 
+<?php require_once('header.php') ?>
+
 
 <table>
   <thead>
@@ -31,3 +33,5 @@ require_once('app/table.php');
     <?php endforeach; ?>
   </tbody>
 </table>
+
+<?php require_once('footer.php') ?>
