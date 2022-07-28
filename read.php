@@ -4,7 +4,7 @@ require_once('app/table.php');
 
 <?php require_once('header.php') ?>
 
-
+<a href="insert.php">Tambah</a>
 <table>
   <thead>
     <tr>

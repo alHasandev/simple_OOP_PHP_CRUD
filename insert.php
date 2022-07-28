@@ -2,7 +2,7 @@
 require_once('app/table.php');
 if (isset($_POST) && !empty($_POST)) {
   if ($table->insertData($_POST)) {
-    header('Location: http://localhost/pluscrud/read.php');
+    header('Location: read.php');
   }
 }
 ?>
